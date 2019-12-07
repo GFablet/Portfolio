@@ -1,0 +1,64 @@
+$resumeBlue: #4d8ee3;
+
+.underline-blue {
+  border-bottom: thick solid $resumeBlue;
+}
+
+.blue-text {
+  color: $resumeBlue;
+  text-align: center;
+}
+
+.title {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.paragraph {
+  margin-top: 10px;
+}
+
+.experience {
+  list-style: none;
+  padding: 0;
+
+  &__details {
+    display: none;
+  }
+}
+
+.sub-category {
+  text-decoration: none;
+  display: block;
+
+  &__button {
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid $resumeBlue;
+    font-size: 1rem;
+    padding: 5px 10px 5px 10px;
+    text-align: left;
+    text-decoration: none;
+    transition: all 0.4s ease 0s;
+    width: 100%;
+
+    strong {
+      float: right;
+    }
+  }
+
+  &__button:hover {
+    background: $resumeBlue;
+    color: #ffffff;
+    transition: all 0.4s ease 0s;
+  }
+}
+
+.skills {
+  background-color: $resumeBlue;
+  border-radius: 5px;
+  color: white;
+  margin: 60px 5px 0 20px;
+  padding: 5px;
+  width: 20%;
+}
